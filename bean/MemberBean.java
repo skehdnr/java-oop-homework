@@ -3,7 +3,7 @@ package bean;
 import javax.swing.JOptionPane;
 
 public class MemberBean {
-	private String name,id,pass,bt;
+	private String name,id,pass,bt,ssd;
 	private Double weight,height;
 	
 	public void setName(String name) {
@@ -18,7 +18,7 @@ public class MemberBean {
 		this.pass = pass;
 	}public String getPass() {
 		return this.pass;
-	}public void setBt() {
+	}public void setBt(String arr) {
 		this.bt = bt;
 	}public String getBt() {
 		return this.bt;
@@ -30,6 +30,10 @@ public class MemberBean {
 		this.height = height;
 	}public Double getHeight() {
 		return this.height;
+	}public void setSsd(String ssd) {
+		this.ssd = ssd;
+	}public String getSsd() {
+		return this.ssd;
 	}
 	
 	@Override
